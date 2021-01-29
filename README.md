@@ -32,3 +32,10 @@ Arch Linux.
     │       └── 20-wireless.network
     └── vconsole.conf
 ```
+
+## TODO
+- [ ] Configure automatic updates for systemd-boot
+- [ ] Enable microcode updates
+- [ ] Document troubleshooting when upgrading the kernel without the EFI system
+      partition mounted to `/boot`
+- [ ] Research and document X11
