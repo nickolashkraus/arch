@@ -21,6 +21,8 @@ touch etc/systemd/network/20-ethernet.network
 touch etc/systemd/network/20-wireless.network
 touch etc/vconsole.conf
 
+# TODO: Do not copy if not executed on Arch Linux. Use /etc/os-release.
+
 # copy files
 cp /boot/loader/entries/arch.conf boot/loader/entries/arch.conf
 cp /boot/loader/loader.conf boot/loader/loader.conf
