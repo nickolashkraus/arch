@@ -1,0 +1,39 @@
+#!/bin/bash
+#
+# USAGE
+#
+#   install_aws_cli
+#
+# DESCRIPTION
+#
+#   Installs the AWS CLI to /usr/bin without pip.
+#
+# $ python3 install --help
+#
+# Usage: install [options]
+#
+# Options:
+#   -h, --help            show this help message and exit
+#
+#   -i INSTALL_DIR, --install-dir=INSTALL_DIR
+#                         The location to install the AWS CLI. The default
+#                         value is ~/.local/lib/aws
+#
+#   -b BIN_LOCATION, --bin-location=BIN_LOCATION
+#                         If this argument is provided, then a symlink will be
+#                         created at this location that points to the aws
+#                         executable. This argument is useful if you want to
+#                         put the aws executable somewhere already on your
+#                         path, e.g. -b /usr/local/bin/aws. This is an optional
+#                         argument. If you do not provide this argument you
+#                         will have to add INSTALL_DIR/bin to your PATH.
+
+# Install the AWS CLI using the bundled installer
+curl 'https://s3.amazonaws.com/aws-cli/awscli-bundle.zip' \
+  -o 'awscli-bundle.zip' && \
+  unzip awscli-bundle.zip && \
+  python3 ./awscli-bundle/install -b /usr/bin/aws
+
+# Clean up bundled installer
+rm -f awscli-bundle.zip
+rm -rf awscli-bundle
