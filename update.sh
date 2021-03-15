@@ -7,6 +7,7 @@ mkdir -p boot/loader/entries/
 mkdir -p etc/
 mkdir -p etc/pacman.d/
 mkdir -p etc/systemd/network/
+mkdir -p usr/local/share/kbd/keymaps/
 
 # touch files
 touch boot/loader/entries/arch.conf
@@ -20,6 +21,7 @@ touch etc/pacman.d/mirrorlist
 touch etc/systemd/network/20-ethernet.network
 touch etc/systemd/network/20-wireless.network
 touch etc/vconsole.conf
+touch usr/local/share/kbd/keymaps/custom.map.gz
 
 # TODO: Do not copy if not executed on Arch Linux. Use /etc/os-release.
 
@@ -35,3 +37,4 @@ cp /etc/pacman.d/mirrorlist etc/pacman.d/mirrorlist
 cp /etc/systemd/network/20-ethernet.network etc/systemd/network/20-ethernet.network
 cp /etc/systemd/network/20-wireless.network etc/systemd/network/20-wireless.network
 cp /etc/vconsole.conf etc/vconsole.conf
+cp /usr/local/share/kbd/keymaps/custom.map.gz usr/local/share/kbd/keymaps/custom.map.gz
