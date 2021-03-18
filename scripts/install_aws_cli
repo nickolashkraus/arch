@@ -8,25 +8,27 @@
 #
 #   Installs the AWS CLI to /usr/bin without pip.
 #
-# $ python3 install --help
+# ADDITIONAL INFORMATION
 #
-# Usage: install [options]
+#   $ python3 ./awscli-bundle/install --help
 #
-# Options:
-#   -h, --help            show this help message and exit
+#   Usage: install [options]
 #
-#   -i INSTALL_DIR, --install-dir=INSTALL_DIR
-#                         The location to install the AWS CLI. The default
-#                         value is ~/.local/lib/aws
+#   Options:
+#     -h, --help            show this help message and exit
 #
-#   -b BIN_LOCATION, --bin-location=BIN_LOCATION
-#                         If this argument is provided, then a symlink will be
-#                         created at this location that points to the aws
-#                         executable. This argument is useful if you want to
-#                         put the aws executable somewhere already on your
-#                         path, e.g. -b /usr/local/bin/aws. This is an optional
-#                         argument. If you do not provide this argument you
-#                         will have to add INSTALL_DIR/bin to your PATH.
+#     -i INSTALL_DIR, --install-dir=INSTALL_DIR
+#                           The location to install the AWS CLI. The default
+#                           value is ~/.local/lib/aws
+#
+#     -b BIN_LOCATION, --bin-location=BIN_LOCATION
+#                           If this argument is provided, then a symlink will be
+#                           created at this location that points to the aws
+#                           executable. This argument is useful if you want to
+#                           put the aws executable somewhere already on your
+#                           path, e.g. -b /usr/local/bin/aws. This is an optional
+#                           argument. If you do not provide this argument you
+#                           will have to add INSTALL_DIR/bin to your PATH.
 
 # Install the AWS CLI using the bundled installer
 curl 'https://s3.amazonaws.com/aws-cli/awscli-bundle.zip' \
