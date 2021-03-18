@@ -39,6 +39,8 @@ Arch Linux.
                     └── custom.map.gz
 ```
 
+A list of files can also be found [here](files.md).
+
 ## TODO
 - [ ] Configure automatic updates for systemd-boot
 - [ ] Enable microcode updates
