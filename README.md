@@ -18,19 +18,25 @@ Arch Linux.
 │       ├── entries
 │       │   └── arch.conf
 │       └── loader.conf
-└── etc
-    ├── fstab
-    ├── hostname
-    ├── hosts
-    ├── locale.conf
-    ├── locale.gen
-    ├── pacman.d
-    │   └── mirrorlist
-    ├── systemd
-    │   └── network
-    │       ├── 20-ethernet.network
-    │       └── 20-wireless.network
-    └── vconsole.conf
+├── etc
+│   ├── fstab
+│   ├── hostname
+│   ├── hosts
+│   ├── locale.conf
+│   ├── locale.gen
+│   ├── pacman.d
+│   │   └── mirrorlist
+│   ├── systemd
+│   │   └── network
+│   │       ├── 20-ethernet.network
+│   │       └── 20-wireless.network
+│   └── vconsole.conf
+└── usr
+    └── local
+        └── share
+            └── kbd
+                └── keymaps
+                    └── custom.map.gz
 ```
 
 ## TODO
@@ -39,3 +45,4 @@ Arch Linux.
 - [ ] Document troubleshooting when upgrading the kernel without the EFI system
       partition mounted to `/boot`
 - [ ] Research and document X11
+- [ ] Review `tmux.conf`
