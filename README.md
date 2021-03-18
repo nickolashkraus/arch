@@ -40,11 +40,3 @@ Arch Linux.
 ```
 
 A list of files can also be found [here](docs/files.md).
-
-## TODO
-- [ ] Configure automatic updates for systemd-boot
-- [ ] Enable microcode updates
-- [ ] Document troubleshooting when upgrading the kernel without the EFI system
-      partition mounted to `/boot`
-- [ ] Research and document X11
-- [ ] Review `tmux.conf`
