@@ -1,4 +1,4 @@
-# Documentation
+# docs
 
 This directory contains a collection of documentation.
 
