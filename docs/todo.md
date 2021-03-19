@@ -10,7 +10,7 @@
 
 ## Configuration
 - [ ] Configure profile to save *all* history
-- [ ] Create script for generating SSH keys
+- [x] Create script for generating SSH keys
 - [ ] Review `.gitconfig`
 - [ ] Review `.tmux.conf`
 
