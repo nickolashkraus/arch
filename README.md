@@ -1,5 +1,7 @@
 # Arch
 
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/NickolasHKraus/arch/blob/master/LICENSE)
+
 A repository for documenting my configuration, maintenance, and experience with
 Arch Linux.
 
