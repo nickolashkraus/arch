@@ -7,9 +7,9 @@ Arch Linux.
 
 ## Installation
 
-* [Installing Arch Linux on a MacBookPro - Part 1](https://nickolaskraus.org/articles/installing-arch-linux-on-a-macbookpro-part-1/)
-* [Installing Arch Linux on a MacBookPro - Part 2](https://nickolaskraus.org/articles/installing-arch-linux-on-a-macbookpro-part-2/)
-* [Installing Arch Linux on a MacBookPro - Part 3](https://nickolaskraus.org/articles/installing-arch-linux-on-a-macbookpro-part-3/)
+* [Installing Arch Linux on a MacBookPro - Part 1](https://nickolaskraus.io/articles/installing-arch-linux-on-a-macbookpro-part-1/)
+* [Installing Arch Linux on a MacBookPro - Part 2](https://nickolaskraus.io/articles/installing-arch-linux-on-a-macbookpro-part-2/)
+* [Installing Arch Linux on a MacBookPro - Part 3](https://nickolaskraus.io/articles/installing-arch-linux-on-a-macbookpro-part-3/)
 
 ## Files
 
